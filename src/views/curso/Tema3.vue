@@ -1,131 +1,158 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 2: Algoritmos y la Revolución 4.0'" :subTitulo="'3. Big Data: procesamiento de datos masivos, mediante algoritmos'")
+  BannerInterno(:titulo="'Unidad 3. Diseño e implementación de algoritmos'" :subTitulo="'3. Utilización de IA para la optimización y análisis básicos en la eficiencia algorítmica'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     
-    .row.mb-4
-      .col-12.col-xl-7.d-flex.flex-column(data-aos="fade-right")
-        p.mb-4 Para comprender el funcionamiento del procesamiento de datos masivos mediante algoritmos, se vuelve imperativo definir Big Data; así se podrá crear una relación directa entre un término y el contexto del otro, e interpretar de manera sencilla Big Data: procesamiento de datos masivos, mediante algoritmos. 
-        p.mb-4.text-bold ¿Qué es Big Data?
-        p.mb-0  Big Data se define como el procesamiento de grandes volúmenes de datos que, por su volumen (tamaño, velocidad, variedad), no pueden ser procesados de manera tradicional. Datos que han sido recolectados de diferentes fuentes como son los sensores, redes sociales, registros web y financieros, entre otros; sirven para tomar decisiones inteligentes mediante la implementación de algoritmos especializados. 
-      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-    
-    .row.mb-4
-      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen') 
-      .col-12.col-xl-7.d-flex.flex-column
-        p.mb-4 Algunos ejemplos de uso del Big Data son:
-        .d-flex.align-items-start.bg-azul.p-3.mb-3(data-aos="fade-up")
-          div.d-flex
-            img.me-2.d-flex.mb-auto.mt-2(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-            p.mb-0  Plataformas de streaming
-        .d-flex.align-items-start.bg-azul.p-3.mb-3(data-aos="fade-up")
-          div.d-flex
-            img.me-2.d-flex.mb-auto.mt-2(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-            p.mb-0  Supermercados
-        .d-flex.align-items-start.bg-azul.p-3.mb-3(data-aos="fade-up")
-          div.d-flex
-            img.me-2.d-flex.mb-auto.mt-2(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-            p.mb-0  Salud
-        .d-flex.align-items-start.bg-azul.p-3.mb-3(data-aos="fade-up")
-          div.d-flex
-            img.me-2.d-flex.mb-auto.mt-2(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
-            p.mb-0  Tráfico
-
-    .row.mb-4
-      .col-12.col-lg-11.mx-auto
-        div.d-flex.align-items-center.bg-morado-claro.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-40.svg', alt='Texto que describa la imagen')
-          p.pe-xl-5.mb-0 Al utilizar plataformas de streaming se analizan, en segundos, millones de datos para visualizar contenido recomendado o sugerido para el usuario; a su vez, en los supermercados, analizan el comportamiento de compra de sus clientes para ofrecer descuentos y promociones; también en el área de la salud, se pueden predecir brotes de enfermedades y analizar mediante datos médicos, su comportamiento en tiempo real. Para finalizar, algunas plataformas de transporte analizan el tráfico para optimizar las rutas y entregar al conductor la mejor. 
+    p.mb-4 A continuación, conoceremos cómo se utiliza la IA para la optimización y análisis básicos en la eficiencia.
 
     #t_3_1.titulo-segundo
       div.d-flex
         span.me-3 3.1  
-        h2 Ejemplos de algoritmos usando Big Data
-    
-    .row.mb-5
-      .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-        p.mb-5 A continuación lo invitamos a consultar el PDF llamado "Ejemplos de algoritmos usando Big Data" el cual muestra de manera sencilla la capacidad del Big Data para resolver problemas complejos y transformar grandes volúmenes de datos en información útil. Los algoritmos de Big Data se aplican en múltiples sectores, como la salud, las finanzas, el comercio electrónico y las redes sociales, generando avances significativos en la toma de decisiones y la optimización de procesos. A través de estos ejemplos prácticos, veremos cómo estos algoritmos recopilan, procesan y analizan datos a gran escala para identificar patrones, realizar predicciones y proporcionar hallazgos valiosos que potencian la innovación y la eficiencia en las organizaciones. 
-        a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Ejemplos de algoritmos usando Big Data.pdf')" target="_blank")
-          img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-          p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de algoritmos usando Big Data
-      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+        h2 Optimización y análisis básicos en la eficiencia algorítmica
 
     .row.mb-4
-      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-7.d-flex.flex-column(data-aos="fade-left")
-        p.mb-4 Big Data permite el procesamiento de grandes volúmenes de datos a través de la implementación de algoritmos como conteo de palabras, MapReduce y K-Means, convirtiendo esos datos en información valiosa para las compañías, apoyando a la gestión del negocio y en la toma de decisiones, también permiten entregar publicidad personalizada, según el cliente final, mejorar el tráfico en las ciudades y apoyar la atención médica. 
-        p.mb-0 Teniendo claro Big Data, su uso y algunos ejemplos de algoritmos que se utilizan a diario; para la gestión de grandes volúmenes de datos pasamos a definir el procesamiento de datos masivos mediante algoritmos. 
+      .col-xl-6
+        img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-6
+        p.mb-4 Para conocer más sobre el tema, lo invitamos a escuchar el siguiente pódcast.
+        TarjetaAudio.color-primario.bg-white.mb-3(
+          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+          tiempo
+          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+
+    p.mb-4 Ahora, a través de ejemplos sencillos, se explicará el concepto de eficiencia algorítmica. 
+
+    .row.bg-azul-2.px-4.px-xl-5.py-5
+      .col-lg-11.mx-auto
+        p.text-bold.mb-4 ¿Qué es la eficiencia algorítmica? 
+        p.mb-4 Medir la velocidad y la cantidad de recursos necesarios para que un programa funcione. En términos prácticos, imagine que debe ir al centro de su ciudad y existen dos rutas que le permiten llegar al mismo destino:
+        .row
+          .col-12.col-xl-7
+            ol.ps-4   
+              li.d-flex.mb-4 
+                .lista-ol--cuadro__vineta
+                  span 1
+                p.mb-0 Ruta A: 30 min directo.
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span 2
+                p.mb-0.pe-xl-5 Ruta B: 45 min haciendo transbordo en la estación central. 
+            p.mb-4.text-bold Responder
+            p.mb-4 ¿Cuál es la ruta más eficiente? ¿Cuál es la ruta que menos recursos consume?
+            p.mb-5 Si en ambas respuestas se seleccionó la ruta A, se ha comprendido la definición de eficiencia algorítmica.
+          .col-12.col-xl-4.d-none.d-xl-block
+            img.pb-4(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
+    .row.mb-4
+      .col-11.col-xl-10.col-xxl-8.mx-auto.-mt-50px(data-aos="fade-up")
+        .tarjeta.bg-white.box-shadow.p-3.mb-0
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.ps-lg-4
+              img(src="@/assets/componentes/pdf-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-2 PDF Ejemplo práctico en Python.
+                  p.text-small.mb-0 Conozca un ejemplo de aplicación de eficiencia algorítmica en el PDF Ejemplo práctico en Python. 
+                .col-sm-auto
+                  a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/Anexo_Ejemplo práctico en Python.pdf')" target="_blank")
+                    span.text-small.text-app Descargar
+                    i.fas.fa-arrow-right.text-app
+
+    p.mb-4 Imagine que se quiere comprar un artículo de lujo para su vehículo en un almacén de cadena.
+
+    .row.mb-4
+      .col-5.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-7
+        p.mb-4 <strong>Búsqueda ineficiente:</strong> revisar en cada sección de la tienda.
+        p.mb-4 <strong>Búsqueda eficiente:</strong>
+        .row
+          .col-12
+            ol.lista-ol--cuadro
+              li.d-flex 
+                .lista-ol--cuadro__vineta
+                  span 1
+                p.mb-0 Buscar dentro de la sección de vehículos los artículos. 
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span 2
+                p.mb-0 Buscar el artículo de lujo.
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span 3
+                p.mb-0 Encontrar el artículo de lujo.
     
-    .d-flex.align-items-center.bg-azul.px-3.py-4.mb-5
-      img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-43.svg', alt='Texto que describa la imagen')
-      p.pe-xl-5.mb-0 Así como con la ayuda del Big Data se analizan grandes volúmenes de datos, el procesamiento de datos masivos permite obtener patrones útiles, generar predicciones o apoyar en la toma de decisiones eficientes. Esto no sería posible de manera tradicional debido a la cantidad de información obtenida y su variedad, además se debe tener presente que cada segundo la cantidad va en aumento exponencial. Los algoritmos permiten organizar, filtrar y analizar los datos obtenidos a través de medios masivos de manera eficiente y ágil. 
+    .bg-fondo-1.bg-full-width
+      div.px-5.pb-md-3.py-4
+        #t_3_2.titulo-segundo
+          div.d-flex
+            span.me-3 3.2  
+            h2 Utilización de IA para la optimización algorítmica
 
-    .row.mb-5
-      .col-12.col-lg-10.mx-auto
-        .row(data-aos="fade-up")
-          .col-6.pe-2
-            .bg-amarillo.p-4.h-100
-              h3 Ejemplo 1
-              p.mb-0 Usado para calcular el promedio de un conjunto de datos, por ejemplo, conocer el rendimiento promedio de los estudiantes en una clase. 
-          .col-6.ps-2
-            .bg-amarillo.p-4.h-100
-              h3 Ejemplo 2
-              p.mb-0 Usado para calcular el promedio de un conjunto de datos, por ejemplo, conocer el rendimiento promedio de los estudiantes en una clase. 
-        .row(data-aos="fade-up")
-          .col-6.pe-2
-            .bg-negro.p-4.h-100.text-white
-              p.mb-1 Función promedio(numeros):
-              p.ps-3.mb-1 suma = 0
-              p.ps-3.mb-1 Para cada par numero en numeros:
-              p.ps-4.ms-3.mb-1 suma = suma + numero
-              p.ps-3.mb-1 promedio = suma / tamaño(numeros)
-              p.ps-3.mb-1 Retornar promedio
-          .col-6.ps-2
-            .bg-negro.p-4.text-white.h-100
-              p.mb-1 Función filtrar(lista, umbral):
-              p.ps-3.mb-1 resultado = [ ]
-              p.ps-3.mb-1 Para cada elemento en lista:
-              p.ps-4.ms-3.mb-1 Si elemento > umbral:
-              p.ps-5.ms-3.mb-1 Añadir elemento a resultado
-              p.ps-3.mb-1 Retornar promedio
+        p.mb-5 La IA o Inteligencia Artificial puede ayudar a optimizar algoritmos de la siguiente manera:
 
-        .row(data-aos="fade-up")
-          .col-6.pe-2
-            .bg-morado-claro.p-4.h-100
-              p El algoritmo procesa miles de calificaciones de estudiantes para determinar el promedio general de todo el colegio. 
-          .col-6.pe-2
-            .bg-morado-claro.p-4.h-100
-              p En un supermercado se podría implementar el anterior algoritmo para buscar de entre todos sus productos aquellos que cumplan con el criterio de búsqueda y aplicar un descuento. 
+        .row.mb-5.justify-content-center.pb-4
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-32.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center Encuentra mejores maneras de resolver los problemas.  
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-32.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center.mx-auto Predice la solución más rápido.
+          .col-10.col-md-8.col-lg-6.col-xl-4(data-aos="fade-left")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-32.svg', style="width: 80px")
+              p.px-1.text-small.mb-0.d-flex.text-center Ajusta automáticamente el código para que funcione mejor.
 
-    .row.mb-5.mx-0
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo-oscuro.p-4(data-aos="fade-left")
-        p.mb-0(data-aos="fade-up") En conclusión, Big Data: procesamiento de datos masivos mediante algoritmos hace referencia a la capacidad de los algoritmos de analizar grandes volúmenes de datos a través de diferentes metodologías con el fin de procesar la información que se genera en tiempo real y a gran escala, obtenida de diferentes fuentes, con el objetivo de simplificarla a tal punto que permita tomar decisiones a través de los patrones de comportamiento que genera, también, permite optimizar procesos y generar retroalimentaciones verídicas que permiten cumplir con las expectativas del cliente, usuario, equipo o sistema de información. 
+    .row.mb-4
+      .col-11.col-xl-10.col-xxl-8.mx-auto.-mt-50px(data-aos="fade-up")
+        .tarjeta.bg-white.box-shadow.p-3.mb-0
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.ps-lg-4
+              img(src="@/assets/componentes/pdf-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-2 PDF Ejemplo práctico en Python.
+                  p.text-small.mb-0 Conozca un ejemplo de aplicación de eficiencia algorítmica en el PDF Ejemplo práctico en Python. 
+                .col-sm-auto
+                  a.download-btn.boton.bg-morado.text-white(:href="obtenerLink('/downloads/Anexo_Optimización a códigos sencillos.pdf')" target="_blank")
+                    span.text-small.text-app Descargar
+                    i.fas.fa-arrow-right.text-app
+    p.mb-4 Le invitamos a observar el comportamiento y respuesta entregada por cada IA en los siguientes videos:
+
+    .bg-azul-2.bg-full-width.mb-4
+      div.px-5.pb-md-3.py-4
+        figure.mb-4
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figure.mb-4
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    p.mb-4 Todas las IA tienen una finalidad, dependerá de usted cuál desea usar, según su practicidad, facilidad de uso y tipo de respuesta obtenida. Le invitamos a poner en práctica los temas aprendidos y a usar la IA para mejorar el rendimiento de los algoritmos diseñados para garantizar su eficiencia. 
 
     .bg-full-width.border-top-9-azul
       .px-4.p-md-5
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.text-small Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span EDteam. (2019, 13 de abril). ¿Qué es el Big Data? - La mejor explicación en español [Video]. YouTube.
+              span.text-small SFPIE UV. (2023). Pensat i Dret. Inteligencia artificial y uso de los algoritmos [video]. YouTube. https://youtu.be/utuJVI6FF5s
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Casas Roma, J., Nin Guerrero, J. & Julbe López, F. (2019). Big data: análisis de datos en entornos masivos. Editorial UOC. 
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              span.text-small Silva Ramírez, E. (2018). Verificación formal de algoritmos: ejercicios resueltos. Servicio de Publicaciones de la Universidad de Cádiz. https://elibro.net/es/ereader/tecnologicadeloriente/33886?page=1
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span López Murphy, J. J. & Zarza, G. (2017). La ingeniería del big data: cómo trabajar con datos. Editorial UOC. 
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              span.text-small Silva Ramírez, E. (2018). Corrección de algoritmos complejos: verificación formal. Servicio de Publicaciones de la Universidad de Cádiz. https://elibro.net/es/ereader/tecnologicadeloriente/33887?page=1
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
-
 
 </template>
 

@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -30,14 +30,26 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'Unidad 2.',
         numero: '1',
-        titulo: 'Algoritmos y la Revolución 4.0.',
+        titulo: 'Conceptos generales en el diseño de algoritmos eficientes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Algoritmos en la automatización de procesos industriales',
+            titulo: 'Fundamentos del diseño algorítmico',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Análisis y optimización de eficiencia',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Importancia de los algoritmos eficientes',
+            hash: 't_1_3',
           },
         ],
       },
@@ -46,13 +58,15 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'Unidad 2.',
         numero: '2',
-        titulo: 'Algoritmos y la Revolución 4.0',
+        titulo:
+          'Implementación de algoritmos en lenguaje de programación básico Python, con ejemplos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Ejemplos de aplicación de algoritmos y pseudocódigos ',
+            titulo:
+              'Ejercicios: combinación de secuencias, condiciones y ciclos',
             hash: 't_2_1',
           },
         ],
@@ -62,14 +76,22 @@ export default {
         icono: 'far fa-file-alt',
         unidad: 'Unidad 2.',
         numero: '3',
-        titulo: 'Big Data: procesamiento de datos masivos, mediante algoritmos',
+        titulo:
+          'Utilización de IA para la optimización y análisis básicos en la eficiencia algorítmica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Ejemplos de algoritmos usando Big Data',
+            titulo:
+              'Optimización y análisis básicos en la eficiencia algorítmica',
             hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Utilización de IA para la optimización algorítmica',
+            hash: 't_3_2',
           },
         ],
       },
@@ -99,7 +121,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Pensamiento_Algoritmico_U2.pdf',
+        download: 'downloads/Pensamiento_Algoritmico_U3.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -116,113 +138,108 @@ export default {
   referencias: [
     {
       referencia:
-        'Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/194403?page=20',
+        'Cuevas Álvarez, A. (2016). Python 3: curso práctico. RA-MA Editorial.',
+      link: 'https://elibro.net/en/ereader/tecnologicadeloriente/106404?page=1',
     },
     {
       referencia:
-        'Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/45161?page=8',
+        'Hinojosa Gutiérrez, Á. (2015). Python paso a paso. RA-MA Editorial.',
+      link: 'https://elibro.net/en/ereader/tecnologicadeloriente/107213?page=1',
     },
     {
       referencia:
-        'Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/174182?page=58',
+        'Mancilla Herrera, A. (2015). Diseño y construcción de algoritmos. Universidad del Norte.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69931?page=1',
     },
     {
       referencia:
-        'Paradojas del marketing para consumidores conectados Kotler, P. Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/269981?page=28',
+        'Moreno, E. (2012). Grafos: fundamentos y algoritmos. Editorial ebooks Patagonia - J.C. Sáez Editor.',
+      link: 'https://elibro.net/en/ereader/tecnologicadeloriente/68438?page=21',
     },
     {
       referencia:
-        'Zahera-Pérez, M. (2021). Industria 4.0: Dirección e Ingeniería de Proyectos',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/72949?page=14',
+        'Nolasco Valenzuela, J. S. (2018). Python: aplicaciones prácticas. RA-MA Editorial.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/106523?page=1',
     },
     {
       referencia:
-        'Pablo Martín, J. (2019). Lean Energy 4.0: guía de implementación',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/117666?page=130',
+        'Silva Ramírez, E. (2018). Corrección de algoritmos complejos: verificación formal. Servicio de Publicaciones de la Universidad de Cádiz.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/33887?page=1',
     },
     {
       referencia:
-        'Garrell Guiu, A. & Guilera Agüera, L. (2019). La industria 4.0 en la sociedad digital',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/105178?page=18',
-    },
-    {
-      referencia: 'Rojas, A. (2022). El eslabón perdido del liderazgo 4.0',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/260204?page=1',
-    },
-    {
-      referencia:
-        'Izaguirre Castellanos, E. (2012). Sistemas de automatización',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/124330?page=72',
-    },
-    {
-      referencia:
-        'Meseguer Iglesias, R. (2014). Inteligencia artificial avanzada',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/57582?page=36',
-    },
-    {
-      referencia:
-        'Meseguer González, P. & López Montañés Badía, R. (2017). Inteligencia artificial',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/42319?page=5',
-    },
-    {
-      referencia:
-        'Casas Roma, J., Nin Guerrero, A. & López López, F. (2019). Big data: análisis de datos en entornos masivos',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/117744?page=23',
-    },
-    {
-      referencia:
-        'López Murphy, J. J. & Zarza, G. (2017). La ingeniería del big data: cómo trabajar con datos',
-      link: 'https://elbro.net/esereader/tecnologicadeloriente/50093?page=55',
+        'Silva Ramírez, E. (2018). Verificación formal de algoritmos: ejercicios resueltos. Servicio de Publicaciones de la Universidad de Cádiz.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/33886?page=1',
     },
   ],
   glosario: [
     {
-      termino: 'Big Data',
+      termino: 'Algoritmo eficiente',
       significado:
-        'se define como el procesamiento de grandes volúmenes de datos que por su volumen (tamaño, velocidad, variedad) no pueden ser procesados de manera tradicional',
+        'Se centra en el diseño y análisis de soluciones que permitan resolver de manera ágil y utilizando la menor cantidad de recurso posible como tiempo de ejecución y memoria, es decir; la eficiencia traduce en la capacidad del algoritmo de realizar su tarea utilizando la menor cantidad de recurso posible',
     },
     {
-      termino: 'Controladores en la automatización <em>(on/off)</em>',
+      termino: 'Ciclos',
       significado:
-        'son sistemas sencillos que activan o desactivan funciones según las condiciones de una variable',
+        'Permiten ejecutar reiterativamente una parte del código hasta cumplirse una condición, los más usados son mientras o while y para o for',
     },
     {
-      termino: 'gadget',
+      termino: 'Condición',
       significado:
-        'o también conocido como artilugio es un accesorio tecnológico pequeño que cumple una función específica, suelen ser tecnológicos o electrónicos y destacan por su utilidad y fácil transporte',
+        'Permiten tomar decisiones dentro de la secuencia de pasos lógicos del algoritmo',
     },
     {
-      termino: 'IA',
+      termino: 'Corrección',
       significado:
-        'o inteligencia artificial es una rama de la informática que se enfoca en la creación de sistemas que replican con precisión tareas que normalmente harían los humanos, algunas de ellas son: reconocimiento de voz, procesamiento del lenguaje natural, toma de decisiones, predicción de patrones y visión por computadora',
+        'Para todas las entradas de datos válidos se deberá producir la salida correcta',
     },
     {
-      termino: 'IoT',
+      termino: 'Eficiencia',
       significado:
-        'o también conocido como Internet de las cosas es una red de dispositivos interconectados que pueden transmitir datos automáticamente, es decir; no requiere de humanos para su funcionamiento',
+        'Los recursos como tiempo de ejecución y memoria utilizada deberán utilizarse de la manera más óptima',
     },
     {
-      termino: 'Mantenimiento predictivo',
+      termino: 'Eficiencia Algorítmica',
       significado:
-        'Se encarga de predecir posibles fallos durante un proceso, también permite identificar piezas, elementos, componentes, etc., que requieran ser reemplazados anticipando fallas en el sistema y garantizando su continuidad',
+        'Medir la velocidad y la cantidad de recursos necesarios para que un programa funcione',
     },
     {
-      termino: 'Manufactura aditiva',
+      termino: 'Escalabilidad',
       significado:
-        'También conocida como impresión en 3D permite ir agregando capa tras capa de material fundido hasta completar un diseño o una pieza, reduce costos al poder producir elementos nuevos o reemplazar los componentes deteriorados en una máquina',
+        'Incluso al incrementar los datos de entrada el código deberá funcionar eficientemente',
     },
     {
-      termino: 'Realidad aumentada',
-      significado: 'Recreación de espacios en ambientes virtuales',
+      termino: 'Modularidad',
+      significado: 'Se debe dividir el problema en segmentos manejables',
     },
     {
-      termino: 'Revolución 4.0',
+      termino: 'Promt',
       significado:
-        'Es el resultado del desarrollo tecnológico impulsado por los procesos industriales masificados, el uso de plantas de producción, la implementación de energía eléctrica, la aplicación de la electrónica, el desarrollo de la informática hasta llegar al IoT o Internet Of Things (Internet de las cosas), concepto que hace referencia a la interconexión que existe entre objetos de uso diario con internet y que permiten comunicarse con otros sistemas',
+        'En IA es un fragmento de texto que se introduce como instrucción para generar respuestas específicas o realizar tareas',
+    },
+    {
+      termino: 'Pseudocódigo',
+      significado:
+        'Corresponde a una forma de escribir algoritmos en la cual se estructura lógicamente un conjunto de instrucciones usando palabras, semejante a como se haría en un lenguaje de programación pero sin la exigencia y rigidez de este último',
+    },
+    {
+      termino: 'Python',
+      significado:
+        'Lenguaje de programación de alto nivel, fácil de leer y escribir, ampliamente utilizado en diversas áreas de la tecnología',
+    },
+    {
+      termino: 'Secuencias',
+      significado:
+        'Corresponden al orden lógico en el que debe ejecutarse cada instrucción del algoritmo',
+    },
+    {
+      termino: 'Simplicidad',
+      significado: 'El código debe ser claro y preciso',
+    },
+    {
+      termino: 'Teoría de la Complejidad Computacional',
+      significado:
+        'Es el fundamento que permite comprender y predecir el comportamiento de los algoritmos que se desarrollan. Según Ortega Candel (2018), "la teoría de la complejidad computacional proporciona el marco teórico necesario para comprender y predecir el comportamiento de los algoritmos en diferentes escenarios" (p. 134)',
     },
   ],
   complementario: [],

@@ -1,26 +1,38 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:titulo="'unidad 2: Algoritmos y la Revolución 4.0'" :subTitulo="'INTRODUCCIÓN'")
+    BannerInterno(:titulo="'Unidad 3. Diseño e implementación de algoritmos'" :subTitulo="'INTRODUCCIÓN'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
+      .row.mb-5.mx-0
+        .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+          img.h-100(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8.d-flex.align-items-center.bg-5.p-4(data-aos="fade-left")
+          p.mb-0(data-aos="fade-up") El pensamiento algorítmico es una competencia fundamental en el mundo de la programación moderna, esta unidad está diseñada para desarrollar habilidades fundamentales en el diseño, implementación y análisis de algoritmos eficientes, los estudiantes aprenderán a abordar problemas mediante el pensamiento algorítmico, a implementar soluciones optimizadas utilizando Python como lenguaje principal, aplicando los principios de la lógica y las estructuras básicas de control de flujo; además podrá implementar la IA para la optimización del código.
+
       .row.mb-4
-        .col-12.col-xl-7.d-flex.flex-column(data-aos="fade-left")
-          p.mb-4 Al finalizar la unidad número 2, el estudiante estará en capacidad de explorar el rol de los algoritmos en la Revolución 4.0, identificando su uso en tecnologías como la automatización, inteligencia artificial y análisis de datos; además, podrá describir cómo estas tecnologías se integran en los procesos de ingeniería.     
-          p.mb-0 Esta unidad aborda la importancia de los algoritmos en el mundo moderno y cómo la aparición de la Revolución 4.0, permitió grandes avances tecnológicos que modificaron la industria y la automatización, renovando la implementación de los algoritmos en sus procesos, además;  describe la importancia de la inteligencia artificial y la posibilidad obtener información a través de la implementación de algoritmos matemáticos o modelado de datos, los cuales son asuntos de gran importancia  para la toma de decisiones gerenciales. 
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-          img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')  
-      .row.mb-0
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
-          img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')  
-        .col-12.col-xl-7.d-flex.flex-column
-          p.mb-4 Por último, se abordará el procesamiento masivo de datos, también conocido como Big Data, que permite  analizar grandes volúmenes de información que proviene de diversas fuentes y que, por su complejidad, no puede ser analizada con métodos tradicionales. 
-          p.mb-3 De este modo, el estudiante podrá explorar el impacto de los algoritmos en las tecnologías de automatización y análisis de datos, conocerá el rol de los algoritmos en el estudio de grandes volúmenes de datos y podrá relacionar conceptos de algoritmos, en procesos industriales automatizados.   
-          div.d-flex.align-items-start.bg-azul.p-4.mb-4(data-aos="fade-left")
-            img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-3.svg', alt='Texto que describa la imagen')
-            .d-flex.flex-column.my-auto
-              p.pe-xl-3.mb-0(data-aos="fade-up") Lo invitamos a aprender sobre la aplicabilidad de los algoritmos en el mundo 4.0, ¡Bienvenido! 
+        .col-12.col-xl-7(data-aos="fade-right")
+          p.mb-4 La temática que se abordará está dividida en tres temas importantes:
+          .d-flex.bg-azul-claro.p-3.mb-4
+            img.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0  Conceptos generales en el diseño de algoritmos eficientes.
+          .d-flex.bg-azul-claro.p-3.mb-4
+            img.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 Implementación de algoritmos en lenguaje de programación básico Python con ejemplos.
+          .d-flex.bg-azul-claro.p-3.mb-4
+            img.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
+            p.mb-0 Utilización de IA para la optimización y análisis básicos en la eficiencia algorítmica. 
+
+        .col-12.col-xl-5.d-none.d-xl-block(data-aos="fade-left")
+          img(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
   
-  </template>
+      p.mb-4 Al finalizar, estará en la capacidad de diseñar algoritmos utilizando pseudocódigo y emplea Python como lenguaje de programación, para finalizar podrá ajustar el código creado usando IA para mejorar su rendimiento y funcionalidad. 
+
+      .row.mb-5
+        .d-flex.align-items-center
+          div.d-flex.align-items-center.bg-5.px-3.py-4(data-aos="fade-up")
+            img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-3.svg', alt='Texto que describa la imagen')
+            p.pe-xl-5.mb-0  Le invitamos a descubrir la importancia de la eficiencia algorítmica a través de esta unidad y a reconocer la importancia del uso de las IA en el alcance de este objetivo.
+</template>
 
 <script>
 export default {

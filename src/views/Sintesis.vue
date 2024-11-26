@@ -1,9 +1,8 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'Unidad 2. Dibujo en proyección y representación de vistas'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 3. Diseño e implementación de algoritmos'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 Desde la automatización de procesos hasta la inteligencia artificial y el análisis de datos, los algoritmos se han convertido en el núcleo de la Revolución 4.0. En esta unidad, descubrirá cómo los algoritmos impactan la industria moderna, potenciando la eficiencia, reduciendo errores y transformando el entorno laboral. Exploraremos su aplicación en tecnologías avanzadas como el Big Data y el Internet de las Cosas (IoT), destacando cómo estas herramientas permiten la toma de decisiones basada en datos y optimizan los procesos sin intervención humana.
-    p.mb-4.mb-md-5.text-bold ¡Prepárese para comprender y aplicar los principios del pensamiento algorítmico en el contexto de la era digital!
+    p.mb-4.mb-md-5 La Unidad 3: Diseño e implementación de algoritmos, se centra en el desarrollo de competencias clave para crear y optimizar algoritmos eficientes. Aprenderá a reconocer los principios de las soluciones utilizando paradigmas como divide y vencerás, programación dinámica y algoritmos voraces; implementando sus diseños en Python y aplicando técnicas de optimización asistidas por IA. Esta unidad es esencial para comprender cómo abordar problemas complejos de manera sistemática, optimizando el uso de recursos y mejorando el rendimiento de las soluciones algorítmicas en diversos contextos computacionales.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='')
     

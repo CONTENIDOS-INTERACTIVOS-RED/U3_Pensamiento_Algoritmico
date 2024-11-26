@@ -20,11 +20,11 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 2
-              h1.home-title.mb-4.text-uppercase Algoritmos y la Revolución 4.0
-              p.descripcion.mb-4 Los algoritmos son la base de la automatización en la Revolución 4.0, integrándose en tecnologías como la inteligencia artificial y el análisis de datos para optimizar procesos industriales y facilitar la toma de decisiones. En esta unidad, exploraremos cómo los algoritmos transforman sectores clave, desde la robótica hasta el mantenimiento predictivo, permitiendo a las empresas mejorar la producción, reducir errores y operar sin intervención humana. 
+              p.home-main-title UNIDAD 3
+              h1.home-title.mb-4.text-uppercase Diseño e implementación de algoritmos
+              p.descripcion.mb-4 El pensamiento algorítmico es una competencia clave en el desarrollo de habilidades de programación moderna. En esta unidad, se profundiza en los conceptos de diseño de algoritmos eficientes, explorando su implementación en Python y la utilización de IA para optimizar y analizar la eficiencia del código. Se presentarán ejemplos prácticos que permitirán a los estudiantes aplicar la lógica, las estructuras de control y optimizaciones para crear soluciones ágiles y eficaces, aprovechando los recursos tecnológicos actuales. 
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 ¡Prepárese para descubrir el papel crucial de los algoritmos en la era digital y cómo potencian la eficiencia industrial!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4 ¡Prepárese para transformar sus habilidades de programación y optimización con técnicas y herramientas de última generación!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

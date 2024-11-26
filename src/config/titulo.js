@@ -1,1 +1,1 @@
-module.exports = 'unidad 2: Algoritmos y la Revolución 4.0'
+module.exports = 'Unidad 3. Diseño e implementación de algoritmos'
