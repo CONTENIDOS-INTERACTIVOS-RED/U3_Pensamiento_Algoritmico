@@ -112,7 +112,7 @@
                 p.fs-18px.mb-0 Los problemas se superponen.
               div.d-flex.mb-1
                 i.fas.fa-chevron-right.fs-18px.me-2.text-morado
-                p.fs-18px.mb-0 Los problemas se superponen.
+                p.fs-18px.mb-0 Los problemas tienen una subestructura óptima.
               div.d-flex.mb-1
                 i.fas.fa-chevron-right.fs-18px.me-2.text-morado
                 p.fs-18px.mb-0.pe-xl-5 Las soluciones de los subproblemas se pueden almacenar.
@@ -201,7 +201,7 @@
 
           tr  
             td.bg-gris.text-bold.align-baseline.text-start.border-right-gris.border-bottom-gris Backtracking
-            td.bg-gris.text-start.border-bottom-gris(colspan="2") El backtracking es una herramienta que permite explorar muchas combinaciones posibles, “especialmente cuando no hay un criterio directo para saber, de inmediato, cuál es la mejor opción”.
+            td.bg-gris.text-start.border-bottom-gris(colspan="2") El <em>backtracking</em> es una herramienta que permite explorar muchas combinaciones posibles, “especialmente cuando no hay un criterio directo para saber, de inmediato, cuál es la mejor opción”.
 
     #t_1_2.titulo-segundo
       div.d-flex
@@ -319,29 +319,30 @@
       .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
         img.h-100(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.align-items-center.bg-4.p-4(data-aos="fade-left")
-        p.mb-0(data-aos="fade-up") Imagine dos algoritmos para ordenar una lista de números. Uno de ellos usa un método simple que compara cada número con los demás (como el Bubble Sort), mientras que el otro utiliza un método más optimizado (como el Merge Sort). Ambos logran ordenar la lista, pero <strong>Merge Sort</strong> lo hace en mucho menos tiempo para listas grandes, porque tiene una eficiencia mucho mayor, en términos de tiempo de ejecución.
+        p.mb-0(data-aos="fade-up") Imagine dos algoritmos para ordenar una lista de números. Uno de ellos usa un método simple que compara cada número con los demás (como el <em>Bubble Sort</em>), mientras que el otro utiliza un método más optimizado (como el <em>Merge Sort</em>). Ambos logran ordenar la lista, pero <strong>Merge Sort</strong> lo hace en mucho menos tiempo para listas grandes, porque tiene una eficiencia mucho mayor, en términos de tiempo de ejecución.
 
     p.mb-4 Para practicar y perfeccionar los conceptos adquiridos en este primer tema de la unidad, le invitamos a leer los siguientes libros: 
 
     .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
+      .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small Introducción a los algoritmos. Del libro: Capítulo 1: Introducción a los algoritmos Moreno, E. (2012). Grafos: fundamentos y algoritmos. Editorial ebooks Patagonia - J.C. Sáez Editor.
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/en/ereader/tecnologicadeloriente/68438?page=21") Moreno, E. (2012). Grafos: fundamentos y algoritmos. Editorial ebooks Patagonia - J.C. Sáez Editor.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small Mancilla Herrera, A. (2015). Diseño y construcción de algoritmos. Universidad del Norte.  
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/69931?page=1") Mancilla Herrera, A. (2015). Diseño y construcción de algoritmos. Universidad del Norte.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small Nolasco Valenzuela, J. S. (2018). Python: aplicaciones prácticas. RA-MA Editorial. 
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/106523?page=1") Nolasco Valenzuela, J. S. (2018). Python: aplicaciones prácticas. RA-MA Editorial.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=tf4qLcKk6ZU") LinuxChad. (2023). El origen de Python [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
-
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 </template>

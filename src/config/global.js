@@ -95,6 +95,11 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -117,11 +122,6 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
-      {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Pensamiento_Algoritmico_U3.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -174,72 +174,72 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Algoritmo eficiente',
-      significado:
-        'Se centra en el diseño y análisis de soluciones que permitan resolver de manera ágil y utilizando la menor cantidad de recurso posible como tiempo de ejecución y memoria, es decir; la eficiencia traduce en la capacidad del algoritmo de realizar su tarea utilizando la menor cantidad de recurso posible',
-    },
-    {
-      termino: 'Ciclos',
-      significado:
-        'Permiten ejecutar reiterativamente una parte del código hasta cumplirse una condición, los más usados son mientras o while y para o for',
-    },
-    {
-      termino: 'Condición',
-      significado:
-        'Permiten tomar decisiones dentro de la secuencia de pasos lógicos del algoritmo',
-    },
-    {
       termino: 'Corrección',
       significado:
-        'Para todas las entradas de datos válidos se deberá producir la salida correcta',
+        'Para todas las entradas de datos válidos se deberá producir la salida correcta.',
     },
     {
       termino: 'Eficiencia',
       significado:
-        'Los recursos como tiempo de ejecución y memoria utilizada deberán utilizarse de la manera más óptima',
+        'Los recursos como tiempo de ejecución y memoria utilizada deberán utilizarse de la manera más óptima.',
     },
     {
-      termino: 'Eficiencia Algorítmica',
-      significado:
-        'Medir la velocidad y la cantidad de recursos necesarios para que un programa funcione',
+      termino: 'Simplicidad',
+      significado: 'El código debe ser claro y preciso.',
+    },
+    {
+      termino: 'Modularidad',
+      significado: 'Se debe dividir el problema en segmentos manejables.',
     },
     {
       termino: 'Escalabilidad',
       significado:
-        'Incluso al incrementar los datos de entrada el código deberá funcionar eficientemente',
+        'Incluso al incrementar los datos de entrada el código deberá funcionar eficientemente.',
     },
     {
-      termino: 'Modularidad',
-      significado: 'Se debe dividir el problema en segmentos manejables',
-    },
-    {
-      termino: 'Promt',
+      termino: 'Algoritmo eficiente',
       significado:
-        'En IA es un fragmento de texto que se introduce como instrucción para generar respuestas específicas o realizar tareas',
+        'Se centra en el diseño y análisis de soluciones que permitan resolver de manera ágil y utilizando la menor cantidad de recursos posibles como tiempo de ejecución y memoria.',
     },
     {
       termino: 'Pseudocódigo',
       significado:
-        'Corresponde a una forma de escribir algoritmos en la cual se estructura lógicamente un conjunto de instrucciones usando palabras, semejante a como se haría en un lenguaje de programación pero sin la exigencia y rigidez de este último',
+        'Corresponde a una forma de escribir algoritmos en la cual se estructura lógicamente un conjunto de instrucciones usando palabras, semejante a como se haría en un lenguaje de programación pero sin la exigencia y rigidez de este último.',
     },
     {
-      termino: 'Python',
+      termino: 'Condición',
       significado:
-        'Lenguaje de programación de alto nivel, fácil de leer y escribir, ampliamente utilizado en diversas áreas de la tecnología',
+        'Permiten tomar decisiones dentro de la secuencia de pasos lógicos del algoritmo.',
+    },
+    {
+      termino: 'Ciclos',
+      significado:
+        'Permiten ejecutar reiterativamente una parte del código hasta cumplirse una condición, los más usados son mientras o while y para o for.',
     },
     {
       termino: 'Secuencias',
       significado:
-        'Corresponden al orden lógico en el que debe ejecutarse cada instrucción del algoritmo',
+        'Corresponden al orden lógico en el que debe ejecutarse cada instrucción del algoritmo.',
     },
     {
-      termino: 'Simplicidad',
-      significado: 'El código debe ser claro y preciso',
+      termino: 'Python',
+      significado:
+        'Lenguaje de programación de alto nivel, fácil de leer y escribir, ampliamente utilizado en diversas áreas de la tecnología.',
     },
     {
       termino: 'Teoría de la Complejidad Computacional',
       significado:
-        'Es el fundamento que permite comprender y predecir el comportamiento de los algoritmos que se desarrollan. Según Ortega Candel (2018), "la teoría de la complejidad computacional proporciona el marco teórico necesario para comprender y predecir el comportamiento de los algoritmos en diferentes escenarios" (p. 134)',
+        "Es el fundamento que permite comprender y predecir el comportamiento de los algoritmos que se desarrollan. Según Ortega Candel (2018), 'la teoría de la complejidad computacional proporciona el marco teórico necesario para comprender y predecir el comportamiento de los algoritmos en diferentes escenarios' (p. 134).",
+    },
+    {
+      termino: 'Eficiencia Algorítmica',
+      significado:
+        'Medir la velocidad y la cantidad de recursos necesarios para que un programa funcione.',
+    },
+    {
+      termino: 'Promt',
+      significado:
+        'En IA es un fragmento de texto que se introduce como instrucción para generar respuestas específicas o realizar tareas.',
     },
   ],
   complementario: [],

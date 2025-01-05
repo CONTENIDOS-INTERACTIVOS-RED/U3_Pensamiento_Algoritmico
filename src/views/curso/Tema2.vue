@@ -180,7 +180,7 @@
         span.me-3 2.1  
         h2 Ejercicios: combinación de secuencias, condiciones y ciclos
 
-    .row.mb-4
+    .row.mb-5
       .col-5.d-none.d-lg-block
         img(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
       .col-12.col-xl-7
@@ -189,24 +189,28 @@
           img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
           p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejercicios
     
+
     .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
+      .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small Pacheco, A. (2020). Algoritmos en cuarentena - Ciclos y decisiones (Episodio 2) [video]. YouTube. 
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/en/ereader/tecnologicadeloriente/68438?page=21") Moreno, E. (2012). Grafos: fundamentos y algoritmos. Editorial ebooks Patagonia - J.C. Sáez Editor.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small Cuevas Álvarez, A. (2016). Python 3: curso práctico. RA-MA Editorial. 
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/en/ereader/tecnologicadeloriente/106404?page=1") Cuevas Álvarez, A. (2016). Python 3: curso práctico. RA-MA Editorial.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span.text-small Hinojosa Gutiérrez, Á. (2015). Python paso a paso. RA-MA Editorial. 
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/en/ereader/tecnologicadeloriente/107213?page=1") Hinojosa Gutiérrez, Á. (2015). Python paso a paso. RA-MA Editorial.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/rMdpoJjRKDw") Pacheco, A. (2020). Algoritmos en cuarentena - Ciclos y decisiones (Episodio 2) [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 
 </template>
 

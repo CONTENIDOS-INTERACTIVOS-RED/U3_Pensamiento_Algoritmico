@@ -21,7 +21,7 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
               p.home-main-title UNIDAD 3
-              h1.home-title.mb-4.text-uppercase Diseño e implementación de algoritmos
+              h1.home-title.mb-4 Diseño e implementación de algoritmos
               p.descripcion.mb-4 El pensamiento algorítmico es una competencia clave en el desarrollo de habilidades de programación moderna. En esta unidad, se profundiza en los conceptos de diseño de algoritmos eficientes, explorando su implementación en Python y la utilización de IA para optimizar y analizar la eficiencia del código. Se presentarán ejemplos prácticos que permitirán a los estudiantes aplicar la lógica, las estructuras de control y optimizaciones para crear soluciones ágiles y eficaces, aprovechando los recursos tecnológicos actuales. 
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4 ¡Prepárese para transformar sus habilidades de programación y optimización con técnicas y herramientas de última generación!
@@ -60,7 +60,6 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title

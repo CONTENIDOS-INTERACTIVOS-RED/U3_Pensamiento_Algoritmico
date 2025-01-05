@@ -16,9 +16,9 @@
       .col-12.col-xl-6
         p.mb-4 Para conocer más sobre el tema, lo invitamos a escuchar el siguiente pódcast.
         TarjetaAudio.color-primario.bg-white.mb-3(
-          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+          texto="Optimización y análisis básicos en la eficiencia algorítmica"
           tiempo
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/PODCAST - Optimización y análisis básicos en la eficiencia algorítmica.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
@@ -127,32 +127,38 @@
     .bg-azul-2.bg-full-width.mb-4
       div.px-5.pb-md-3.py-4
         figure.mb-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figure.mb-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
-    p.mb-4 Todas las IA tienen una finalidad, dependerá de usted cuál desea usar, según su practicidad, facilidad de uso y tipo de respuesta obtenida. Le invitamos a poner en práctica los temas aprendidos y a usar la IA para mejorar el rendimiento de los algoritmos diseñados para garantizar su eficiencia. 
+          video(width="100%" height="100%" controls)
+            source(src="../../assets/componentes/audios/Uso_ChatGPT.mp4" type="video/mp4")
 
-    .bg-full-width.border-top-9-azul
-      .px-4.p-md-5
+        figure.mb-4
+          video(width="100%" height="100%" controls)
+            source(src="../../assets/componentes/audios/Uso_ClaudeAI.mp4" type="video/mp4")
+
+    p.mb-5 Todas las IA tienen una finalidad, dependerá de usted cuál desea usar, según su practicidad, facilidad de uso y tipo de respuesta obtenida. Le invitamos a poner en práctica los temas aprendidos y a usar la IA para mejorar el rendimiento de los algoritmos diseñados para garantizar su eficiencia. 
+
+    .bg-full-width.border-top-9-azul.mb-5
+      .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
           .col-12.col-md-6.col-lg-8
-            p.text-small Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small SFPIE UV. (2023). Pensat i Dret. Inteligencia artificial y uso de los algoritmos [video]. YouTube. https://youtu.be/utuJVI6FF5s
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/33886?page=1") Silva Ramírez, E. (2018). Verificación formal de algoritmos: ejercicios resueltos. Servicio de Publicaciones de la Universidad de Cádiz.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small Silva Ramírez, E. (2018). Verificación formal de algoritmos: ejercicios resueltos. Servicio de Publicaciones de la Universidad de Cádiz. https://elibro.net/es/ereader/tecnologicadeloriente/33886?page=1
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/33887?page=1") Silva Ramírez, E. (2018). Corrección de algoritmos complejos: verificación formal. Servicio de Publicaciones de la Universidad de Cádiz.
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span.text-small Silva Ramírez, E. (2018). Corrección de algoritmos complejos: verificación formal. Servicio de Publicaciones de la Universidad de Cádiz. https://elibro.net/es/ereader/tecnologicadeloriente/33887?page=1
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/utuJVI6FF5s") SFPIE UV. (2023). Inteligencia artificial y uso de los algoritmos [Vídeo]
           .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
+    
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 </template>
 
@@ -160,7 +166,148 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    cuestionario: {
+      tema: 'Conceptos de Algoritmos y Eficiencia Computacional',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuáles son los pasos correctos del paradigma "Divide y vencerás"?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dividir, Resolver, Finalizar',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Dividir, Conquistar, Combinar',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Separar, Analizar, Unir', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Fragmentar, Procesar, Integrar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'En un algoritmo que procesa una gran base de datos, ¿qué técnica de optimización sería más efectiva?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentar la complejidad del código',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Optimización de bucles y reducción de operaciones redundantes',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Usar más memoria temporal', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Implementar más funciones recursivas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Al ejecutar el siguiente código Python, ¿cuál será el resultado? <br> <br>num1 = 5<br>num2 = 15<br>suma = num1 + num2<br>print("resultado:", suma)',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'resultado: 515', esCorrecta: false },
+            { id: 'b', texto: 'resultado: 20', esCorrecta: true },
+            { id: 'c', texto: 'resultado: error', esCorrecta: false },
+            { id: 'd', texto: 'resultado: 5 + 15', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Qué es la eficiencia algorítmica?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Medir el tiempo de ejecución de un programa sin importar los recursos utilizados',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Medir la calidad de un algoritmo basado solo en su precisión',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Medir la velocidad y la cantidad de recursos necesarios para que un programa funcione',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Medir la cantidad de operaciones realizadas sin considerar el tiempo',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: '¿Cómo mejora la optimización de ciclos en un algoritmo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumentando la cantidad de ciclos en el código',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitando que el ciclo se repita innecesariamente',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reduciendo el número de ciclos y simplificando las operaciones',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Haciendo que los ciclos sean más complejos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
   }),
 }
 </script>
